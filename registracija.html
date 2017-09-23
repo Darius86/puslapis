@@ -5,9 +5,13 @@
     <title>Registracija</title>
 </head>
 <body style="background: #d1ba90">
-<h1 align="center"> Norinčių tapti orkestro "Kybartai" kolektyvo dalimi, registracija</h1>
-<img src="">
-<form name="Registracijos forma" method="get" action="">
+<h1 align="center"> Norinčių tapti orkestro "Kybartai", kolektyvo dalimi, registracija</h1>
+<img src="download.jpg">
+<ul>
+    <li><a href="index.html">Grįžti į pradinį</a></li>
+</ul>
+<hr color="blue">
+<form name="Registracijos forma" method="get" action="prisijungimo puslapis.html">
 <label>Prisijungimo vardas:</label><br/>
     <input type="text" name="vardas" required placeholder="Prisijungimo vardas"/><br/>
     <label>Slaptažodis:</label><br/>
@@ -17,10 +21,21 @@
     <label>Lytis</label>
     <input type="radio" name="lytis" checked/> Vyras
     <input type="radio" name="lytis"/> Moteris<br/>
+    <label>Muzikinis išsilavinimas</label><br/>
+    <select name="Muzikinis išsilavinimas:">
+    <option value="Aukštasis">Aukštasis</option>
+    <option value="Profesinis">Profesinis</option>
+    <option value="Kolegija">Kolegija</option>
+    <option value="Savamokslis">Savamokslis</option>
+        </select><br/>
+    <label>Sugebėjimas groti muzikos instrumentais:</label>
+    <input type="checkbox" name="Sugebėjimas groti muzikos instrumentais[]"/> Mušamieji
+    <input type="checkbox" name="Sugebėjimas groti muzikos instrumentais[]"/> Styginiai
+    <input type="checkbox" name="Sugebėjimas groti muzikos instrumentais[]"/> Pučiamieji
+    <input type="checkbox" name="Sugebėjimas groti muzikos instrumentais[]"/> Negroju jokiu muzikos instrumentu<br/>
+    <input type="submit" value="Siūsti"/>
+    </form>
 
-
-
-</form>
 
 </body>
 </html>
