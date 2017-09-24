@@ -5,8 +5,21 @@
     <title>Prisijungimo puslapis</title>
 </head>
 <body style="background: #85a1e2">
-<h1 align="center">Patvirtinkita registraciją įvesdami prisijungimo duomenis</h1>
+<h1 align="center">Patvirtinkite registraciją įvesdami prisijungimo duomenis</h1>
+<ul>
+    <li><a href="index.html">Pradinis puslapis</a> </li>
+    <li><a href="registracija.html">Registracija</a> </li>
+    <li><a href="Svečių%20knyga.html">Svečių knyga</a> </li>
+    <li><a href="Atrankos.html">Atrankos</a> </li>
+</ul>
 <form name="Registracijos forma" method="get" action="atrankos.html">
+    <label>Prisijungimo duomenys</label><br/>
+    <input type="text" name="vardas" required placeholder="Prisijungimo duomenys"/><br/>
+    <label>Slaptažodis:</label><br/>
+    <input type="password" name="Slaptažodis" required placeholder="Slaptažodis"/><br/>
+    <label>EL. paštas</label><br/>
+    <input type="email" name="el. paštas" required placeholder="el. paštas"/><br/>
+    <input type="submit" value="Prisijungti"/>
 
 </form>
 </body>
